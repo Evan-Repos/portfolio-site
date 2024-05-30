@@ -1,0 +1,367 @@
+.links li a {
+  color: #ff449d; /* Set the text color to white */
+  /* Remove underline from links */
+}
+
+/* This will make only the "Get Started" link text white */
+#getstarted a {
+  color: white;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+a {
+text-decoration: none;
+}
+
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.container {
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.landing-page header {
+min-height: 80px;
+display: flex;
+}
+
+.landing-page header .links li a {
+color: #ff449d; 
+}
+
+/*hover effect for header*/
+.landing-page header .links li a:hover {
+color: #5d5d5d; 
+}
+
+.landing-page header .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.landing-page header .logo {
+color: #5d5d5d;
+font-style: italic;
+text-transform: uppercase;
+font-size: 20px;
+}
+
+.landing-page header .links {
+display: flex;
+align-items: center;
+}
+
+.landing-page header .links li {
+margin-left: 30px;
+color: #5d5d5d;
+cursor: pointer;
+transition: .3s;
+}
+
+.landing-page header .links li:last-child {
+border-radius: 20px;
+padding: 10px 20px;
+color: #FFF;
+background-color: #ff449d;
+}
+
+.landing-page header .links li:last-child:hover {
+background-color: #5d5d5d;
+transform: scale(1.05);
+}
+
+.landing-page .content .container {
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 140px;
+min-height: calc(100vh - 80px);
+}
+
+.landing-page .content .info h1 {
+color: #5d5d5d;
+font-size: 44px;
+}
+
+.landing-page .content .info p {
+margin: 0;
+line-height: 1.6;
+font-size: 15px;
+color: #5d5d5d;
+}
+
+.landing-page .content .info button {
+border: 0;
+border-radius: 20px;
+padding: 12px 30px;
+margin-top: 30px;
+cursor: pointer;
+color: #FFF;
+background-color: #ff449d;
+}
+
+.landing-page .content .image img {
+max-height: 600px;
+max-width: 100%;
+}
+
+/*contact form*/
+/* shadow box */
+input[type=text], select, textarea {
+width: 100%; /* Full width */
+padding: 12px; /* Some padding */ 
+border: none; 
+border-radius: 20px; /* Rounded borders */
+box-sizing: border-box;
+margin-top: 6px; /* Add a top margin */
+margin-bottom: 16px; /* Bottom margin */
+resize: vertical;
+background-color: #f2f6f8;
+box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+}
+
+/* button style */
+input[type=submit] {
+background-color: #ff449d;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+border: 0;
+border-radius: 20px;
+padding: 12px 30px;
+margin-top: 30px;
+cursor: pointer;
+color: #FFF;
+}
+
+/* hover effect for contact form button */
+input[type=submit]:hover {
+background-color: #5d5d5d;
+transform: scale(1.05);
+}
+
+/* Add a background color and some padding around the form */
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+}
+
+.form-column h2 {
+  color: #555;
+}
+
+/*footer*/
+*, *:before, *:after {
+box-sizing: border-box;
+}
+
+html {
+font-size: 100%;
+}
+
+body {
+font-family: acumin-pro, system-ui, sans-serif;
+margin: 0;
+display: grid;
+grid-template-rows: auto 1fr auto;
+font-size: 14px;
+background-color: #f4f4f4;
+align-items: start;
+min-height: 100vh;
+}
+
+.footer {
+display: flex;
+flex-direction: column;
+align-items: center; 
+padding: 20px; 
+color: #2f2f2f;
+background-color: #fff;
+border-top: 1px solid #e5e5e5;
+}
+
+.footer > * {
+flex: 1; 
+text-align: center; 
+}
+
+.footer p {
+margin: 0; 
+line-height: 1.2;
+}
+
+.legal {
+margin-bottom: 10px; 
+color: #999;
+}
+
+.about {
+color: #555; 
+}
+
+/*image*/
+.column {
+float: left;
+width: 50%; 
+padding: 100px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+content: "";
+clear: both;
+display: table;
+}
+
+.image-column {
+margin-top: 100px; 
+}
+
+/*landing*/
+.landing-page .content .info {
+padding: 80px; 
+margin: 0 30px; 
+}
+
+.landing-page .content .info button {
+border: 0;
+border-radius: 20px;
+padding: 12px 30px;
+margin-top: 30px;
+cursor: pointer;
+color: #FFF;
+background-color: #ff449d;
+}
+
+/* hover effect for contact form button */
+.landing-page .content .info button:hover {
+background-color: #5d5d5d;
+transform: scale(1.05);
+}
+
+/* Change text color on hover */
+.landing-page header .links li a:hover {
+color: #5d5d5d; 
+}
+
+.landing-page .content .image img {
+max-height: 550px;
+max-width: 100%;
+}
+
+/* About Me section */
+.about-me .about-image img {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+}
+
+.about-me .about-info h2 {
+font-size: 32px;
+margin-bottom: 20px;
+color: #555;
+}
+
+.about-me .about-info p {
+font-size: 18px;
+line-height: 1.6;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+.row {
+  flex-direction: column;
+}
+
+.column {
+  padding: 10px;
+}
+
+.about-me .about-info h2 {
+  font-size: 28px;
+}
+
+.about-me .about-info p {
+  font-size: 16px;
+}
+}
+
+/*project section*/
+.projects {
+display: flex;
+flex-wrap: wrap;
+justify-content: center; 
+position: relative; 
+padding-top: 90px; 
+}
+
+.project-heading {
+position: absolute;
+top: 0; 
+left: 10; 
+margin: 0; 
+padding: 20px; 
+z-index: 1; 
+font-size: 35px; 
+color: #555;
+}
+
+.project {
+margin: 20px;
+max-width: 300px;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+transition: transform 0.3s ease;
+}
+
+.project:hover {
+transform: translateY(-5px);
+}
+
+.project img {
+width: 100%;
+height: auto;
+}
+
+.project-info {
+padding: 20px;
+background-color: #f9f9f9;
+}
+
+.project-info h3 {
+margin-top: 0;
+margin-bottom: 10px;
+font-size: 1.2em;
+}
+
+.project-info p {
+margin-bottom: 20px;
+}
+
+.btn {
+display: inline-block;
+padding: 10px 20px;
+background-color: #ff449d;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+background-color: #5d5d5d;
+}
