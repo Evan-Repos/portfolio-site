@@ -380,9 +380,9 @@ background-color: #5d5d5d;
 }
 
 .social-icons {
-  position: absolute; /* Add this line */
-  bottom: 20px; /* Add this line */
-  right: 20px; /* Add this line */
+  position: absolute;
+  bottom: 20px; 
+  right: 20px; 
 }
 
 .fa:hover{
