@@ -191,6 +191,7 @@ padding: 20px;
 color: #2f2f2f;
 background-color: #fff;
 border-top: 1px solid #e5e5e5;
+position: relative;
 }
 
 .footer > * {
@@ -364,4 +365,57 @@ transition: background-color 0.3s ease;
 
 .btn:hover {
 background-color: #5d5d5d;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  width: 50px; 
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.social-icons {
+  position: absolute; /* Add this line */
+  bottom: 20px; /* Add this line */
+  right: 20px; /* Add this line */
+}
+
+.fa:hover{
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-android {
+  background: #a4c639;
+  color: white;
+}
+
+/* Twitter */
+.fa-github {
+  background: #000000;
+  color: white;
+}
+
+.fa-mail {
+  background: #000000;
+  color: white;
+}
+
+/*smooth scroll*/
+html {
+  scroll-behavior: smooth;
 }
